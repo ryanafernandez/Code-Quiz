@@ -27,12 +27,6 @@ When all questions have been answered or there is no time remaining, the page wi
 After clicking submit, the user will be presented with the current high scores. The project stores the five highest scores in local storage so that the leaderboard will persist when relaoding the page. There is a link to view the leaderboard in the upper-left-hand corner of the screen that is useable anytime. If the link is used mid-quiz, then the current quiz will be aborted, and the leaderboard displayed.
 ![high score screen](assets/images/readme/high-score.png)
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
-
 ## Credits
 
 N/A
