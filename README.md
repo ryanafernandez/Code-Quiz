@@ -27,6 +27,8 @@ When all questions have been answered or there is no time remaining, the page wi
 After clicking submit, the user will be presented with the current high scores. The project stores the five highest scores in local storage so that the leaderboard will persist when relaoding the page. There is a link to view the leaderboard in the upper-left-hand corner of the screen that is useable anytime. If the link is used mid-quiz, then the current quiz will be aborted, and the leaderboard displayed.
 ![high score screen](assets/images/readme/high-score.png)
 
+When ready, the user can then use the "Go back" button to return to the first page and restart the quiz. The "Clear high scores" button can also be used to clear the leaderboard. This will also reset the local storage.
+
 ## Credits
 
 N/A
