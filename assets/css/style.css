@@ -1,9 +1,9 @@
-:root {
+/* :root {
     --main-back: #ffffff;
     --main-text: #534582;
     --nav-back: #221C35;
     --nav-text: #57AB89;
-}
+} */
 
 * {
     box-sizing: border-box;
@@ -23,15 +23,98 @@ body {
     padding: 20px;
 }
 
-main {
+.main-content {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
     text-align: center;
-    padding: 20px 30%;
+    padding: 20px 160px;
 }
 
 .main-heading, .description {
     padding-bottom: 20px;
+}
+
+.end-game-div {
+    display: inline-block;
+}
+
+.game-start-div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    text-align: center;
+    width: 720px;
+}
+
+.high-score-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    background-color: paleturquoise;
+}
+
+.high-score-list li{
+    margin-left: 24px;
+}
+
+input {
+    margin: 10px;
+}
+
+button {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 8px 24px;
+}
+
+p {
+    padding: 20px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#result {
+    border-top: solid;
+    border-color: grey;
+    color: grey;
+    text-align: left;
+    font-size: 32px;
+}
+
+.answer-button {
+    width: 240px;
+}
+
+@media screen and (max-width: 992px) {
+    .game-start-div {
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .game-start-div {
+        width: 240px;
+    }
+
+    .main-content {
+        padding: 20px 80px;
+    }
+
+    #result {
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 1.25em;
+    }
+
+    p {
+        font-size: 0.95em;
+    }
 }
